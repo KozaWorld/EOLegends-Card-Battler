@@ -1,0 +1,131 @@
+{
+  "cards": [
+    {
+      "id": "fire_dragon_001",
+      "name": "Inferno Dragon",
+      "type": "Dragon",
+      "rarity": "Legendary",
+      "stats": {
+        "attack": 85,
+        "defense": 70,
+        "health": 250,
+        "speed": 60
+      },
+      "abilities": [
+        {
+          "name": "Flame Burst",
+          "description": "Deals 50 damage to all enemy units",
+          "cooldown": 3,
+          "damage": 50
+        },
+        {
+          "name": "Ember Shield",
+          "description": "Increases defense by 30 for 2 turns",
+          "cooldown": 4,
+          "defense_boost": 30
+        }
+      ],
+      "element": "Fire",
+      "artwork": {
+        "small_icon": "https://example.com/icons/fire_dragon.png",
+        "full_art": "https://example.com/artwork/inferno_dragon.jpg"
+      },
+      "lore": "A legendary dragon born from the heart of an active volcano, capable of scorching entire landscapes.",
+      "collection_info": {
+        "obtained_date": null,
+        "count": 0,
+        "max_level": 10,
+        "current_level": 1,
+        "experience": 0
+      }
+    },
+    {
+      "id": "frost_mage_002",
+      "name": "Glacial Sorcerer",
+      "type": "Mage",
+      "rarity": "Epic",
+      "stats": {
+        "attack": 65,
+        "defense": 45,
+        "health": 180,
+        "speed": 75
+      },
+      "abilities": [
+        {
+          "name": "Frost Nova",
+          "description": "Freezes an enemy unit for 1 turn",
+          "cooldown": 2,
+          "effect": "freeze"
+        },
+        {
+          "name": "Ice Barrier",
+          "description": "Creates a protective shield absorbing 40 damage",
+          "cooldown": 3,
+          "shield_value": 40
+        }
+      ],
+      "element": "Water",
+      "artwork": {
+        "small_icon": "https://example.com/icons/frost_mage.png",
+        "full_art": "https://example.com/artwork/glacial_sorcerer.jpg"
+      },
+      "lore": "A mystical sorcerer who commands the power of ice and winter, wielding magic that can freeze entire armies.",
+      "collection_info": {
+        "obtained_date": null,
+        "count": 0,
+        "max_level": 10,
+        "current_level": 1,
+        "experience": 0
+      }
+    },
+    {
+      "id": "earth_golem_003",
+      "name": "Stone Guardian",
+      "type": "Golem",
+      "rarity": "Rare",
+      "stats": {
+        "attack": 50,
+        "defense": 95,
+        "health": 300,
+        "speed": 25
+      },
+      "abilities": [
+        {
+          "name": "Rock Slam",
+          "description": "Deals heavy damage to a single target",
+          "cooldown": 2,
+          "damage": 70
+        },
+        {
+          "name": "Stone Skin",
+          "description": "Increases defense by 50 for 3 turns",
+          "cooldown": 4,
+          "defense_boost": 50
+        }
+      ],
+      "element": "Earth",
+      "artwork": {
+        "small_icon": "https://example.com/icons/earth_golem.png",
+        "full_art": "https://example.com/artwork/stone_guardian.jpg"
+      },
+      "lore": "An ancient construct of living stone, protecting sacred lands with unwavering strength.",
+      "collection_info": {
+        "obtained_date": null,
+        "count": 0,
+        "max_level": 10,
+        "current_level": 1,
+        "experience": 0
+      }
+    }
+  ],
+  "game_metadata": {
+    "version": "1.0.0",
+    "last_updated": "2024-12-17",
+    "total_card_count": 3,
+    "rarity_distribution": {
+      "Legendary": 1,
+      "Epic": 1, 
+      "Rare": 1
+    }
+  }
+}

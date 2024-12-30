@@ -1,0 +1,73 @@
+{
+  "shop_configuration": {
+    "version": "1.0.0",
+    "reset_interval": "daily",
+    "max_purchase_limit": 3
+  },
+  "shop_items": [
+    {
+      "id": "starter_pack_001",
+      "name": "Beginner's Card Pack",
+      "type": "card_pack",
+      "rarity": "common",
+      "price": 100,
+      "contents": {
+        "min_cards": 3,
+        "max_cards": 5,
+        "guaranteed_rarities": ["common", "uncommon"]
+      },
+      "description": "A starter pack with a mix of basic cards to boost your collection."
+    },
+    {
+      "id": "legendary_chance_001",
+      "name": "Legendary Card Chance",
+      "type": "card_draw",
+      "rarity": "legendary",
+      "price": 500,
+      "contents": {
+        "draw_probability": {
+          "legendary": 0.05,
+          "epic": 0.15,
+          "rare": 0.30,
+          "uncommon": 0.35,
+          "common": 0.15
+        }
+      },
+      "description": "A rare chance to draw a powerful legendary card!"
+    },
+    {
+      "id": "battle_booster_001",
+      "name": "Battle Booster",
+      "type": "consumable",
+      "price": 250,
+      "effect": {
+        "temporary_stat_boost": {
+          "attack": 10,
+          "defense": 5,
+          "health": 20
+        },
+        "duration": "next_battle"
+      },
+      "description": "Temporarily boost a card's stats for your next battle."
+    },
+    {
+      "id": "card_reroll_001",
+      "name": "Card Reroll Token",
+      "type": "utility",
+      "price": 150,
+      "description": "Reroll the stats of one of your cards.",
+      "effect": {
+        "action": "reroll_card_stats"
+      }
+    }
+  ],
+  "shop_metadata": {
+    "currency_name": "Battle Tokens",
+    "default_starting_tokens": 200,
+    "token_earn_rates": {
+      "battle_win": 50,
+      "battle_loss": 10,
+      "daily_bonus": 100
+    }
+  }
+}
